@@ -1,55 +1,67 @@
 <div align="center">
-  <img src="assets/profile-hero.svg" width="100%" alt="Видеть портфель целиком: AssetMind — аналитика доходности, риска и структуры портфеля">
-
+  <h1>elcin31</h1>
+  <p><strong>Finance software · Grand strategy games · Systems engineering</strong></p>
+  <p>Разрабатываю собственные продукты на пересечении финансов, аналитики и игровых систем.</p>
   <p>
-    <a href="https://assetmind-v031-mpsk.vercel.app">
-      <img src="https://img.shields.io/badge/Открыть-AssetMind-16483E?style=for-the-badge&logo=vercel&logoColor=white" alt="Открыть AssetMind">
-    </a>
-    <a href="https://github.com/elcin31/assetmind-v031">
-      <img src="https://img.shields.io/badge/Исходный%20код-GitHub-202B36?style=for-the-badge&logo=github&logoColor=white" alt="Исходный код на GitHub">
-    </a>
+    <a href="https://github.com/elcin31/assetmind-v031"><strong>AssetMind</strong></a>
+    &nbsp;·&nbsp;
+    <a href="https://github.com/elcin31/grand-strategy-multiplayer"><strong>Dominion</strong></a>
   </p>
 </div>
 
-## Привет, я elcin31
+---
 
-Создаю **AssetMind** — инструменты, которые помогают разобраться в инвестиционном портфеле: из чего складывается результат, где сосредоточен риск и насколько надёжны исходные данные.
+## Обо мне
+
+Мне интересны проекты, где важны **логика, данные и сложные взаимосвязанные системы**: от расчёта риска инвестиционного портфеля до симуляции государств, экономики и дипломатии.
+
+Сейчас развиваю два основных проекта. Оба находятся в активной разработке.
+
+## Проекты
+
+### [AssetMind](https://github.com/elcin31/assetmind-v031) · Portfolio Analytics
+
+Инструмент для учёта инвестиционного портфеля и исследования его доходности, риска и структуры.
+
+- **Портфель:** сделки, денежные потоки, позиции, P&L и синхронизация данных.
+- **Аналитика:** историческая доходность, просадки, Sharpe, Sortino, VaR и Expected Shortfall.
+- **Исследования:** корреляции, вклад активов в риск, бенчмарки, атрибуция и стресс-сценарии.
+- **Подход:** расчёты должны быть проверяемыми; если данных недостаточно, метрика не выдумывается.
+
+**Стек:** React · TypeScript · Vite · Supabase · Vercel
+
+[Открыть приложение](https://assetmind-v031-mpsk.vercel.app) · [Исходный код](https://github.com/elcin31/assetmind-v031)
 
 <div align="center">
-  <img src="assets/assetmind-demo-full-1790499888166.jpg" width="100%" alt="Скриншот реального интерфейса AssetMind: график, портфельные позиции и распределение активов">
-  <sub>Реальный экран приложения. Показаны только синтетические позиции встроенного демо-портфеля.</sub>
+  <img src="assets/assetmind-demo-full-1790499888166.jpg" width="88%" alt="Интерфейс AssetMind: обзор портфеля, графики и аналитика">
+  <p><sub>Демо-интерфейс AssetMind. Позиции на скриншоте синтетические.</sub></p>
 </div>
 
-## AssetMind
+### [Dominion](https://github.com/elcin31/grand-strategy-multiplayer) · Grand Strategy
 
-| Направление | Что можно изучить |
-| --- | --- |
-| **История и доходность** | Позиции и операции во времени, доходность портфеля и качество исторических данных |
-| **Риск** | Волатильность, просадки, Sharpe, Sortino, VaR и Expected Shortfall |
-| **Диверсификация** | Корреляции, ковариации и вклад позиций в общий риск |
-| **Сценарии и сравнение** | Бенчмарки, атрибуция результата и гипотетические стресс-сценарии |
+Мобильная глобальная стратегия для Android с картой мира, государствами, провинциями и взаимосвязанными игровыми механиками.
 
-### Принципы
+- **Управление государством:** экономика, население, технологии, строительство и политика.
+- **Стратегия:** армии, войны, дипломатия и поведение игровых государств под управлением AI.
+- **Кампании:** одиночная игра, сохранения и серверный мультиплеер.
+- **Разработка:** оптимизация карты, мобильного интерфейса и игрового цикла для Android.
 
-- Расчёты отделены от интерфейса и проверяются как самостоятельная математическая логика.
-- Если истории недостаточно, показатель остаётся недоступным — данные не подменяются нулями.
-- Историческая доходность портфеля и риск текущего состава портфеля показываются как разные вещи.
-- Сценарии помогают исследовать чувствительность портфеля, но не предсказывают рынок и не дают инвестиционных рекомендаций.
+**Стек:** React Native · Expo · TypeScript · Skia · отдельный игровой backend
 
-### Технологии
+**Статус:** активная разработка и тестирование Android-сборок. Dominion 2.0 не обозначается как завершённый релиз.
 
-<p>
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript">
-  <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React">
-  <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite">
-  <img src="https://img.shields.io/badge/Supabase-1C4532?style=flat-square&logo=supabase&logoColor=3ECF8E" alt="Supabase">
-  <img src="https://img.shields.io/badge/Vercel-111111?style=flat-square&logo=vercel&logoColor=white" alt="Vercel">
-</p>
+[Репозиторий и техническая документация](https://github.com/elcin31/grand-strategy-multiplayer)
 
 ---
 
+## Что для меня важно
+
+| В аналитике | В разработке игр |
+| --- | --- |
+| Корректность расчётов и качество данных | Последовательные правила симуляции |
+| Явные ограничения моделей | Предсказуемое поведение механик |
+| Понятный интерфейс сложных метрик | Производительность на реальных устройствах |
+
 <p align="center">
-  <a href="https://github.com/elcin31/assetmind-v031">AssetMind на GitHub</a>
-  &nbsp;·&nbsp;
-  <a href="https://assetmind-v031-mpsk.vercel.app">Открыть приложение</a>
+  <sub>Building real products, one iteration at a time.</sub>
 </p>
